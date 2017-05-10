@@ -1,7 +1,7 @@
-# pyastro17-my-first-PR
-Repo for demonstrating how to make a pull request.
+# Creating a Pull Request
+This tutorial will walk you through making a pull request (often abbreviated to PR) to someone else's code project.
 
-To make a pull request (PR):
+To make a PR:
 - Fork a repo
 - Clone your fork of the repo
 - Create a new branch in your local repo
@@ -36,7 +36,7 @@ You can also have many different branches at once, so several different features
 To see what branches exist in your repo, run `git branch`.
 At the moment, this should just show 'master', which is the usual main branch and is the one branch created when you make a new repo.
 You can also give this command an argument which is the name of a new branch to create.
-So in this repo, run `git repo new_contributor` to make a new branch called 'new_contributor'.
+So in this repo, run `git branch new_contributor` to make a new branch called 'new_contributor'.
 This creates a branch but you are still working in the master branch.
 To switch to your new branch, run `git checkout new_contributor`.
 
@@ -61,10 +61,11 @@ If not, we should push to it anyway and git will create it for us, so the comman
 On the GitHub page for your fork of the repo, you should see drop-down menu that says '**Branch: master**' and a button next to it saying '**New pull request**'.
 Select the new_contributor branch from the drop-down menu and then click the button.
 You should then get a page telling you what the base fork and branch are (into which you want your code to be merged), and the fork and branch are (that you're trying to merge).
-For this example those should be SolarDrew/pyastro17-my-first-PR master and <_your-username_/pyastro17-my-first-PR> new_contributor.
+For this example those should be SolarDrew/pyastro17-my-first-PR master and <_your-username_>/pyastro17-my-first-PR new_contributor.
 This page also lets you give your PR a title and a description.
 
 When you've added these, click the big green '**Create pull request**' button and you're done!
+Now I, as the owner of the original repo, have the option to accept or refuse the changes you've made to the code.
 
 ## Contributors
 
