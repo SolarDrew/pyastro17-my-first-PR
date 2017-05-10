@@ -70,3 +70,4 @@ Now I, as the owner of the original repo, have the option to accept or refuse th
 ## Contributors
 
 - Drew Leonard (SolarDrew)
+- Benjamin Winkel(bwinkel)
